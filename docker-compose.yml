@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  nginx:
+    build: ./nginx
+
+    ports:
+      - 5000:80
+  # desktop:
+  #   build: ./desktop
+  #   ports:
+  #     - 3000:3000
+  #   volumes: 
+  #     - ./desktop:/app
